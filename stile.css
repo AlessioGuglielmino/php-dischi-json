@@ -1,0 +1,19 @@
+body {
+  background-color: #1d2d3c;
+}
+
+header {
+  height: 120px;
+  background-color: #10161e;
+}
+
+.logo {
+  width: 250px;
+}
+
+.card {
+  background-color: #112030;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
