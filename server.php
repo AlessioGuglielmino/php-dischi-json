@@ -1,5 +1,5 @@
 <?php 
-$string = file_get_contents("../data/dischi.json");
+$string = file_get_contents("./DATA/dischi.json");
 $disk_list = json_decode($string,true);
 
 

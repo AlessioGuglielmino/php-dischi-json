@@ -35,10 +35,10 @@
     <main>
       <div class="container">
         <div class="row">
-          <div v-for="disco in dischi" class="col-4">
+          <div v-for="disco in dischi" class="col-4 my-3">
             <div class="card">
               <div class="card-poster">
-                <img :src="disco.poster" alt="" />
+                <img class="poster w-50" :src="disco.poster" alt="" />
               </div>
               <div class="info">
                 <div>{{disco.title}}</div>
